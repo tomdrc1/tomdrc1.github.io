@@ -1,0 +1,21 @@
+a:link, a:visited {
+    /*color: #0000e0;*/
+    text-decoration: none
+}
+
+a:hover, a:active {
+    /*color: #0000ff;*/
+    text-decoration: underline
+}
+
+article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.index-date {
+    font-size: 90%;
+    font-style: italic;
+    float: left;
+    width: 90px;
+}
