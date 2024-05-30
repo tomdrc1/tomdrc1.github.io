@@ -16,7 +16,8 @@ html, body
     grid-template-rows: 5% 85% 10%; 
     grid-template-areas: "Title Title Title"
                          "Content1 Content2 Content3"
-                         "below below below"
+                         "below below below";
+    grid-template-columns: repeat(3, 1fr); /* NEW */
 }
 
 .headers
