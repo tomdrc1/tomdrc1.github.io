@@ -1,0 +1,44 @@
+html, body
+{
+    background-color: lightgray;
+    margin: 0%;
+}
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container
+{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 5% 85% 10%; 
+    grid-template-areas: "Title Title Title"
+                         "Content1 Content2 Content3"
+                         "below below below"
+}
+
+.headers
+{
+    grid-area: Title;
+    background-color: gray;
+}
+
+.content
+{
+    height: 100%; 
+    grid-area: Content2;
+    
+}
+
+.below
+{
+    grid-area: below;
+}
+
+span.psw 
+{
+    float: right;
+    padding-top: 16px;
+}
