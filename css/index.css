@@ -15,9 +15,9 @@ html, body
     height: 100%;
     grid-template-rows: 5% 85% 10%; 
     grid-template-areas: "Title Title Title"
-                         "Content1 Content2 Content3"
+                         ". Content ."
                          "below below below";
-    grid-template-columns: repeat(3, 1fr); /* NEW */
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .headers
@@ -29,7 +29,7 @@ html, body
 .content
 {
     height: 100%; 
-    grid-area: Content2;
+    grid-area: Content;
     
 }
 
