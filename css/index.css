@@ -12,14 +12,23 @@ html, body
 p
 {
     display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 0.75rem;
 }
 
 img 
 {
-    float: left;
     width: 40%;
-    background-size: cover;
-    margin-right: 1%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.content p:has(> img) + p:has(> img)
+{
+    padding-top: 1rem;
 }
 
 .grid-container
